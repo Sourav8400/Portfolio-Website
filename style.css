@@ -84,7 +84,8 @@ section {
   
   nav ul {
     float: right;
-    margin-right: 20px;
+    margin-right: 25px;
+
   }
   
   nav ul li {
@@ -143,13 +144,16 @@ section {
   
     ul {
       position: fixed;
-      width: 100%;
+      width: 200px;
       height: 100vh;
       background: #2c3e50;
-      top: 80px;
+      top: 0;
+      right: 0;
       left: -100%;
       text-align: center;
       transition: all .5s;
+      padding-top: 40px;
+      z-index: 2;
     }
   
     nav ul li {
